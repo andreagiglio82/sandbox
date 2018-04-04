@@ -27,12 +27,12 @@ public class Fractal : MonoBehaviour {
             materiali[i,0] = new Material(material);
             materiali[i,0].color = Color.Lerp(Color.red, material.color, t*t);
             materiali[i, 1] = new Material(material);
-            materiali[i, 1].color = Color.Lerp(material.color, Color.green , t * t);
+            materiali[i, 1].color = Color.Lerp(material.color, Color.blue , t * t);
         }
         materiali[maxDepth,0] = new Material(material);
-        materiali[maxDepth,0].color = Color.white;
+        materiali[maxDepth,0].color = Color.blue;
         materiali[maxDepth, 1] = new Material(material);
-        materiali[maxDepth, 1].color = Color.black;
+        materiali[maxDepth, 1].color = Color.blue;
     }
     
 	// Use this for initialization
