@@ -142,13 +142,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh:
   - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  - {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   rotazioneMassima: 20
   material: {fileID: 2100000, guid: 273a3746d7789774ca8e99e46b086b8f, type: 2}
-  maxDepth: 5
+  maxDepth: 3
   depth: 0
-  probabilita: 0.5
-  scalaFiglio: 0.5
+  probabilita: 0.98
+  scalaFiglio: 0.72
 --- !u!4 &97706861
 Transform:
   m_ObjectHideFlags: 0
